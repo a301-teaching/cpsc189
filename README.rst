@@ -47,7 +47,8 @@ For this week,  can you:
 Assignment 4:
 _____________
 
-Use the new script lib/build_tree.py to create a 4-level set of folders and
+Use the new script `lib/build_tree.py  <https://github.com/a301-teaching/cpsc189/blob/6119c915c91368e9dc34e86e85daf72a21f96daf/lib/build_tree.py>`_
+to create a 4-level set of folders and
 fill them with paragraphs from Moby Dick.  I've written most of what's needed
 but removed the lines from the function write_moby that actually handle the
 file writing::
