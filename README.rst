@@ -43,3 +43,34 @@ For this week,  can you:
 
    b) a new notebook notebooks/tree_demo.ipynb  that uses these two functions to
       walk a directory tree and prints the resulting DataFrame
+
+Assignment 4:
+_____________
+
+Use the new script lib/build_tree.py to create a 4-level set of folders and
+fill them with paragraphs from Moby Dick.  I've written most of what's needed
+but removed the lines from the function write_moby that actually handle the
+file writing::
+
+  def write_moby(counter,sample,dirname):
+    level1,level2,level3,level4=dirname.split('/')
+    dir1= level1
+    dir2= dir1 + '/' + level2
+    dir3= dir2 + '/' + level3
+    for the_dir in [dir1,dir2,dir3,dirname]:
+        level=find_level(the_dir)
+    #
+    # loop through the four directories in
+    # [dir1,dir2,dir3,dirname] and
+    # write a new paragraph of moby dict in each folder by
+    # opening and writing 1 file the level1 folder, 2 files in
+    # each of the level 2 folders, 3 files in level3 folders
+    # and 4 files in level4.  Use the counter variable to
+    # make sure that each file gets a different paragraph of moby dick
+    #
+
+    return counter
+
+Once you've got a working version check it in and we'll write tests of your
+tree_walker.py using this folder tree.
+
