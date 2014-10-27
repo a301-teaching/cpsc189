@@ -38,8 +38,8 @@ For this week,  can you:
 
    Check in a new branch that has the following files:
 
-     1) lib/atsc212.py that contains your tree_walker() and
-        tree_to_csv() to csv functions
+   a) lib/atsc212.py that contains your tree_walker() and
+      tree_to_csv() to csv functions
 
-     2) a new notebook notebooks/tree_demo.ipynb  that uses these two functions to
-        walk a directory tree and prints the resulting DataFrame
+   b) a new notebook notebooks/tree_demo.ipynb  that uses these two functions to
+      walk a directory tree and prints the resulting DataFrame
