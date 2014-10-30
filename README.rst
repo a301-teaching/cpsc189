@@ -17,7 +17,13 @@ _____________
 2) Modfiy your function so that it also returns the size of each file, and the
    total size of all files in the directory.  Verify that the total size
    agrees with  windows explorer
-     
+
+Assignment 1 solution:
+----------------------
+
+See the script `lib/walk.py <https://github.com/a301-teaching/cpsc189/blob/master/lib/walk.py>`_
+
+   
 Assignment 2:
 _____________
 
@@ -48,10 +54,12 @@ For this week,  can you:
 Assignment 3 solution
 +++++++++++++++++++++
 
-
+See the `tree_demo.ipynb notebook <http://nbviewer.ipython.org/github/a301-teaching/cpsc189/blob/master/notebooks/tree_demo.ipynb>`_
 
 Assignment 4:
 _____________
+
+Read this `testing tutorial <http://www.jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing>`_
 
 Use the new script `lib/build_tree.py  <https://github.com/a301-teaching/cpsc189/blob/6119c915c91368e9dc34e86e85daf72a21f96daf/lib/build_tree.py>`_
 to create a 4-level set of folders and
