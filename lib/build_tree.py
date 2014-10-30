@@ -11,7 +11,7 @@ def find_level(directory):
     levelnum=int(levelnum)
     return levelnum
 
-def write_moby(counter,sample,dirname):
+def write_moby(counter,paras,dirname):
     level1,level2,level3,level4=dirname.split('/')
     dir1= level1
     dir2= dir1 + '/' + level2
