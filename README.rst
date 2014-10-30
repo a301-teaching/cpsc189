@@ -44,6 +44,12 @@ For this week,  can you:
    b) a new notebook notebooks/tree_demo.ipynb  that uses these two functions to
       walk a directory tree and prints the resulting DataFrame
 
+
+Assignment 3 solution
++++++++++++++++++++++
+
+
+
 Assignment 4:
 _____________
 
