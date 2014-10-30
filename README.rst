@@ -54,7 +54,8 @@ For this week,  can you:
 Assignment 3 solution
 +++++++++++++++++++++
 
-See the `tree_demo.ipynb notebook <http://nbviewer.ipython.org/github/a301-teaching/cpsc189/blob/master/notebooks/tree_demo.ipynb>`_
+See the `tree_demo.ipynb notebook <http://nbviewer.ipython.org/github/a301-teaching/cpsc189/blob/master/notebooks/tree_demo.ipynb>`_ that
+calls `lib/new_walk.py <lib/new_walk.py>`_
 
 Assignment 4:
 _____________
