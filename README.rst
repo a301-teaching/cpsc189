@@ -19,7 +19,7 @@ _____________
    agrees with  windows explorer
 
 Assignment 1 solution:
-----------------------
+++++++++++++++++++++++
 
 See the script `lib/walk.py <https://github.com/a301-teaching/cpsc189/blob/master/lib/walk.py>`_
 
