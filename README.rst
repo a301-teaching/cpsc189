@@ -90,3 +90,38 @@ file writing::
 Once you've got a working version check it in and we'll write tests of your
 tree_walker.py using this folder tree.
 
+* My solution is `lib/build_tree_sol.py <lib/build_tree_sol.py>`_
+
+Assignment 5:
+_____________
+
+Write a script that walks a directory tree and creates a pandas dataframe as in the Assignment 3
+`tree_demo.ipynb notebook <http://nbviewer.ipython.org/github/a301-teaching/cpsc189/blob/master/notebooks/tree_demo.ipynb>`_  
+but add a new column contains the directory level as in Assignment 4.  Use the Pandas group_by function from
+http://synesthesiam.com/posts/an-introduction-to-pandas.html to return lists of files grouped by
+directory level, and print them out as a tree that looks like::
+
+  level 1 directory (size of all files in l1 folder)
+       level 1 filea
+       level 1 fileb
+       level 1 filec
+
+       level 2 directories (size of all files in l2 folders
+            level 2 dir1
+                level2 filea
+                level2 fileb
+             level 2 dir2
+                level2 filea
+                level2 fileb
+
+        etc.
+
+Use space instead of tabs -- note that python lets you do this::
+
+  spaces4='    '
+  level2_indent=2*spaces4
+  level3_indent=3*space4
+
+  etc.
+
+  
