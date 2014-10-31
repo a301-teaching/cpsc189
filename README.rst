@@ -120,8 +120,11 @@ Use space instead of tabs -- note that python lets you do this::
 
   spaces4='    '
   level2_indent=2*spaces4
-  level3_indent=3*space4
+  level3_indent=3*spaces4
 
   etc.
+
+Test it on the folder tree you built in Assignment 4, but also make sure it works on
+any set of nested folders.
 
   
