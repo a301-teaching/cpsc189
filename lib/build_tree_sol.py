@@ -56,7 +56,7 @@ if __name__=="__main__":
 
     counter=0
     for dirname in dir_list:
-       counter=write_moby(counter,paras,dirname)
+        counter=write_moby(counter,paras,dirname)
        
 
     

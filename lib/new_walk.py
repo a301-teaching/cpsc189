@@ -5,7 +5,11 @@
 import os
 import stat
 from collections import defaultdict
-from pwd import getpwuid
+try:
+    from pwd import getpwuid
+    has_pwd=True
+except:
+    has_pwd=False
 
 #make a dictionary for which every entry is intialized to
 #an empty list -- use this to sort files and sizes by directory
@@ -30,7 +34,7 @@ def index(directory):
         #
         # directory name may be relative to current directory, make it absolute
         #
-        directory=os.path.abspath(directory)
+        #directory=os.path.abspath(directory)
         for the_file in os.listdir(directory):
             fullname = os.path.join(directory, the_file)
             #
@@ -45,7 +49,10 @@ def index(directory):
                 #
                 st=os.stat(fullname)
                 size=st[stat.ST_SIZE]
-                owner=getpwuid(st[stat.ST_UID]).pw_name
+                if has_pwd:
+                    owner=getpwuid(st[stat.ST_UID]).pw_name
+                else:
+                    owner='NA'
                 modified=st[stat.ST_MTIME]
                 files.append((fullname,owner,size,modified))
     return files
