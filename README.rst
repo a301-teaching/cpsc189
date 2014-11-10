@@ -128,3 +128,11 @@ Test it on the folder tree you built in Assignment 4, but also make sure it work
 any set of nested folders.
 
   
+Assignment 6:
+_____________
+
+* Read chaper 17 of http://www.greenteapress.com/thinkpython/html/index.html
+  and check in your solution
+  to exercise 7 (http://www.greenteapress.com/thinkpython/html/thinkpython018.html)
+
+  

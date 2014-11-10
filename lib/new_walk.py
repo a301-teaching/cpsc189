@@ -8,7 +8,7 @@ from collections import defaultdict
 try:
     from pwd import getpwuid
     has_pwd=True
-except:
+except ImportError:
     has_pwd=False
 
 #make a dictionary for which every entry is intialized to
