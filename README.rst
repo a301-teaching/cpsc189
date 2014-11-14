@@ -135,4 +135,32 @@ _____________
   and check in your solution
   to exercise 7 (http://www.greenteapress.com/thinkpython/html/thinkpython018.html)
 
+Assignment 7:
+_____________
   
+* Redo `stull_radar_II.py <https://github.com/a301-teaching/classcode/blob/master/lib/stull_radar_II.py>`_
+  but instead of passing a dictionary of parameters to the functions, make them member functions
+  of a class called radar.  That is, write something like this::
+
+    class Radar(object):
+
+      def __init__(self,Pt,R1,b):
+          self.Pt=Pt
+          ....
+
+      def finddbz(self,Pr,K2,La,R):
+          ...
+
+      def findRR_snow(dbZ):
+
+      elt.
+
+ and then use an instance of this class
+
+ nexrad=Radar(Pt,R1,b)
+
+ to answer the questions.
+
+ 
+
+ 
