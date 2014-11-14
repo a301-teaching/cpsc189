@@ -127,6 +127,8 @@ Use space instead of tabs -- note that python lets you do this::
 Test it on the folder tree you built in Assignment 4, but also make sure it works on
 any set of nested folders.
 
+* `assignment5_sol.py <https://github.com/a301-teaching/cpsc189/blob/master/lib/assignment5_sol.py>`_
+
   
 Assignment 6:
 _____________
