@@ -135,8 +135,8 @@ _____________
   and check in your solution
   to exercise 7 (http://www.greenteapress.com/thinkpython/html/thinkpython018.html)
 
-* `assignment6.py <https://github.com/a301-teaching/classcode/blob/master/lib/assignment6.py>`_
-
+* `assignment6.py <https://github.com/a301-teaching/cpsc189/blob/master/lib/assignment6.py`_
+  
 Assignment 7:
 _____________
   
